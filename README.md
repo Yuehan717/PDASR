@@ -20,19 +20,19 @@ pip install -r requirements.txt
 ```
 
 ### Data Preparation
-- Download testing data from Google Drive
+- Download [testing data](https://drive.google.com/drive/folders/1u7pWhYqO1Mmba76aH-_-8rUFqe0oeyW5?usp=sharing) from Google Drive
 - Put data under folder or change the dir value in  
 (Temporally does not support testing user-collected data)
 
 ### Testing
-- Download trained model and put it under the folder models.
+- Download [trained model](https://drive.google.com/drive/folders/1u7pWhYqO1Mmba76aH-_-8rUFqe0oeyW5?usp=sharing) and put it under the folder models.
 - Run following command
 ```
 python test.py --scale 4 --save test_results --templateD HAN --templateP Clique \
 --dir_data [root of testing sets] --data_test Set5+Set14+B100+Urban100 \
 --pre_train ../models/model_trained.pt --save_results
 ```
-We also provide the testing results in our paper.
+We also provide the [testing results](https://drive.google.com/drive/folders/1u7pWhYqO1Mmba76aH-_-8rUFqe0oeyW5?usp=sharing) in our paper.
 ### Training
 
 Instructions coming soon
