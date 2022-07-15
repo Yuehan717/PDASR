@@ -25,14 +25,14 @@ pip install -r requirements.txt
 (Temporally does not support testing user-collected data)
 
 ### Testing
-Trained model | Results in paper
-
+- Download trained model and put it under the folder models.
+- Run following command
 ```
 python test.py --scale 4 --save test_results --templateD HAN --templateP Clique \
 --dir_data [root of testing sets] --data_test Set5+Set14+B100+Urban100 \
 --pre_train ../models/model_trained.pt --save_results
 ```
-
+We also provide the testing results in our paper.
 ### Training
 
 Instructions coming soon
