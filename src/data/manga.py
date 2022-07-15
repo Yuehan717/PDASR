@@ -15,7 +15,7 @@ class Manga(srdata.SRData):
         )
 
     def _set_filesystem(self, dir_data):
-        self.apath = "/data/jibo/dataset/super_resolution/benchmark_rcan/"
+        self.apath = os.path.join(dir_data,"Manga109")
         # self.apath = os.path.join(self.apath, 'x'+str(self.scale[0]))
         self.dir_hr = os.path.join(self.apath,'HR/Manga109','x'+str(self.scale[0]))
         self.dir_lr = os.path.join(self.apath, 'LR/LRBI/Manga109','x'+str(self.scale[0]))
