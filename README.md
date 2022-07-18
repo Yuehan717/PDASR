@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ### Data Preparation
 - Download [testing data](https://drive.google.com/drive/folders/1u7pWhYqO1Mmba76aH-_-8rUFqe0oeyW5?usp=sharing) from Google Drive
 - Put data under folder or change the dir value in  
-(Temporally does not support testing user-collected data)
+(Temporally does not support to test self-collected data)
 
 ### Testing
 - Download [trained model](https://drive.google.com/drive/folders/1u7pWhYqO1Mmba76aH-_-8rUFqe0oeyW5?usp=sharing) and put it under the folder models.
