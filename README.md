@@ -13,7 +13,7 @@ git clone https://github.com/Yuehan717/PDASR
 cd PDASR/src
 ```
 - Install dependencies. (Python >= 3.7 + CUDA)
-- Require pytorch==1.9.1: [official instructions](https://pytorch.org/get-started/previous-versions/)
+- Require pytorch=1.9.1: [official instructions](https://pytorch.org/get-started/previous-versions/)
 - Install other requirements
 ```
 pip install -r requirements.txt
@@ -35,4 +35,6 @@ python test.py --scale 4 --save test_results --templateD HAN --templateP Clique 
 We also provide the [testing results](https://drive.google.com/drive/folders/1u7pWhYqO1Mmba76aH-_-8rUFqe0oeyW5?usp=sharing) in our paper.
 ### Training
 
-Instructions coming soon
+Instructions coming soon  
+
+_Our code is based on [EDSR](https://github.com/sanghyun-son/EDSR-PyTorch). Thanks to their great work._
