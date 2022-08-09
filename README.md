@@ -5,7 +5,7 @@
 
 ### Introduction
 Single Image Super-Resolution (SISR) usually only does well in either objective quality or perceptual quality, due to the perception-distortion trade-off. In this paper, we proposed a two-stage model trained with low-frequency constraint and designed ADMM algorithm. Experimentally. our method achieve high perfromance in both PSNR/SSIM (objective quality) and NRQM/LPIPS (perceptual quality). Check followings for details.
-> Paper | Sumpplementary Material
+> [Paper](https://arxiv.org/abs/2208.03324) | Sumpplementary Material
 ### Getting Start
 - clone this repository  
 ```
